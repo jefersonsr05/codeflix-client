@@ -2,8 +2,12 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='flex bg-gray-800 flex-col'>
-      <h1>Jeferson Rocha</h1>
-    </main>    
+    <div className='relative h-full lg:h-[140vh]'>
+      <main className='relative pb-24 pl-4 lg:space-y-24 lg:pl-16'>
+        <div>
+          
+        </div>
+      </main>
+    </div>  
   )
 }
